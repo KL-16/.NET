@@ -8,6 +8,6 @@ namespace RestaurantAPI.Models
         [MaxLength(25)]
         public string Name { get; set; }
         public string Description { get; set; }
-        public string HasDelivery { get; set; }
+        public bool HasDelivery { get; set; }
     }
 }
